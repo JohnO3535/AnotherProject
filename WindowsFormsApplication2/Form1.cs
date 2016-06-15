@@ -15,6 +15,12 @@ namespace WindowsFormsApplication2
 		public Form1()
 		{
 			InitializeComponent();
+			button1.Text = "Say hello, Button.";
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			textBox1.Text = "Hello Button";
 		}
 	}
 }
