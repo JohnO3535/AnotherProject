@@ -15,12 +15,6 @@ namespace WindowsFormsApplication2
 		public Form1()
 		{
 			InitializeComponent();
-			this.button1.Text = "Say Hello";
-		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			this.textBox1.Text = "Hello";
 		}
 	}
 }
